@@ -9,8 +9,8 @@ var numbers = [1, 2, 3, 4, 5]
 print "Numbers: $(numbers)"
 
 var person = {
-    name: "Cyber",
-    age: 1
+    name  = "Cyber",
+    'age' = 1
 }
 print "Person: $(person)"
 
