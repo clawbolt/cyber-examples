@@ -5,7 +5,7 @@
 var name = "Cyber"
 print "Hello, $(name)!"
 
-var numbers [int] = [1, 2, 3, 4, 5]
+var numbers = [5]int{1, 2, 3, 4, 5}
 print "Numbers: $(numbers)"
 print "Numbers length: $(numbers.len())"
 print "List slice [0..0]: $(numbers[0..0])"\nprint "List slice [0..3]: $(numbers[0..3])"\nprint "List slice [3..]: $(numbers[3..])"\nprint "List slice [..3]: $(numbers[..3])"
