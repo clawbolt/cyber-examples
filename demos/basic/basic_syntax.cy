@@ -5,7 +5,7 @@
 var name = "Cyber"
 print "Hello, $(name)!"
 
-var numbers = .{1, 2, 3, 4, 5}
+var numbers [5]int = .{1, 2, 3, 4, 5}
 print "Numbers: $(numbers)"
 
 var person = {
