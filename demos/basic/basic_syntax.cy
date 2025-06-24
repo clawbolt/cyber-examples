@@ -7,6 +7,7 @@ print "Hello, $(name)!"
 
 var numbers [int] = [1, 2, 3, 4, 5]
 print "Numbers: $(numbers)"
+print "Numbers length: $(numbers.len())"
 
 var person = {
     name  = "Cyber",
